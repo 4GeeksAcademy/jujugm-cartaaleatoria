@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+.card {
+  height: 440px;
+  position: relative;
+}
+h1 {
+  font-size: 100px;
+  margin-top: 20%;
+}
+div.card-icon-left {
+  font-size: 50px;
+  bottom: 8px;
+  right: 20px;
+  color: red;
+}
+
+div.card-icon-right {
+  font-size: 50px;
+  bottom: 8px;
+  right: 20px;
+  position: absolute;
+  color: red;
+  transform: rotate(180deg);
+}
+
+button {
+  background-color: dodgerblue;
+}
+.a {
+  color: dodgerblue;
+}
